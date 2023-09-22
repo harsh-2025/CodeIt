@@ -12,11 +12,11 @@ https://code-it-web-ide.vercel.app
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client/blob/master/Screenshots/Screenshot%20(35).png?raw=true)
-![App Screenshot](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client/blob/master/Screenshots/Screenshot%20(36).png?raw=true)
-![App Screenshot](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client/blob/master/Screenshots/Screenshot%20(37).png?raw=true)
-![App Screenshot](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client/blob/master/Screenshots/Screenshot%20(38).png?raw=true)
-![App Screenshot](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client/blob/master/Screenshots/Screenshot%20(39).png?raw=true)
+![App Screenshot](https://github.com/harsh-2025/CodeIt/blob/main/CodeIt-Web-IDE---Client-master/Screenshots/Opening%20window.png)
+![App Screenshot](https://github.com/harsh-2025/CodeIt/blob/main/CodeIt-Web-IDE---Client-master/Screenshots/Execute%20Javascript%20code.png)
+![App Screenshot](https://github.com/harsh-2025/CodeIt/blob/main/CodeIt-Web-IDE---Client-master/Screenshots/Execute%20c%2B%2B%20code.png)
+
+
 
 
 ## Run Locally
@@ -24,7 +24,7 @@ https://code-it-web-ide.vercel.app
 Clone the project
 
 ```bash
-  git clone https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---Client
+  git clone https://github.com/harsh-2025/CodeIt/tree/main/CodeIt-Web-IDE---Client-master
 ```
 
 Go to the project directory
@@ -50,7 +50,7 @@ Start the server
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_SERVER` - backend to which you will connect this client for processing code and relaying output. Either clone [server](https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---server1) repository and use that locally, or use already hosted server: https://code-it-web-ide-server1.vercel.app/ .
+`API_SERVER` - backend to which you will connect this client for processing code and relaying output. Either clone [server](https://github.com/harsh-2025/CodeIt/tree/main/CodeIt-Web-IDE---server1-master) repository and use that locally, or use already hosted server: https://code-it-web-ide-server1.vercel.app/ .
 
 ## Documentation
 
