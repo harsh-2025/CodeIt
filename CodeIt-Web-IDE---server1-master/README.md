@@ -17,7 +17,7 @@ https://code-it-web-ide-server1.vercel.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/Tanishk-Saxena/CodeIt-Web-IDE---server1
+  git clone https://github.com/harsh-2025/CodeIt/tree/main/CodeIt-Web-IDE---server1-master
 ```
 
 Go to the project directory
