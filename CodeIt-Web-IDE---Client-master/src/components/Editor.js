@@ -69,9 +69,19 @@ const Editor = ({language, code, inputs, output, loading, setCode, setOutput, se
     setLoading(false);
   }
 
+  // const handleCopy = () => {
+  //   navigator.clipboard.writeText(code);
+  // }
   const handleCopy = () => {
+  console.log("Copying:", code);
+
+  try {
     navigator.clipboard.writeText(code);
+    console.log("Text copied successfully!");
+  } catch (err) {
+    console.error("Unable to copy text:", err);
   }
+}
 
   return (
     <div className="editor">
@@ -83,9 +93,18 @@ const Editor = ({language, code, inputs, output, loading, setCode, setOutput, se
             <button data-tip='run' className="run-btn" disabled={code==="" || language===null} onClick={handleRun}>
               <img src={run} alt="Run" />
             </button>
-            <button data-tip data-for="copy" className="copy-btn" disabled={code===""} onClick={handleCopy}>
-              <img src={copy} alt="Copy" />
-            </button>
+            // <button data-tip data-for="copy" className="copy-btn" disabled={code===""} onClick={handleCopy}>
+            //   <img src={copy} alt="Copy" />
+            // </button>
+    <button
+  data-tip
+  data-for="copy"
+  className="copy-btn"
+  disabled={code === ""}
+  onClick={handleCopy}
+>
+  <img src={copy} alt="Copy" />
+</button>
             <button data-tip='clear' className="clear-btn" disabled={code==="" && output==="" && loading===false} onClick={handleClear}>
               <img src={clear} alt="Clear" />
             </button>
